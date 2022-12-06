@@ -93,7 +93,9 @@ section {
 
 .story .stories a img {
     border-radius: 50%;
-    border: 2px solid #c62d98ce;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, yellow, red, purple) border-box;
+    border: 2px solid transparent;
     padding: 2px;
     object-fit: cover;
 
